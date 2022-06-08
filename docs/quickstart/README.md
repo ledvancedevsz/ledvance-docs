@@ -1,10 +1,10 @@
 # 快速开始
   本章将介绍如何快速使用本文档系统。
 
-  本文档系统基于[docsify](https://docsify.js.org/#/zh-cn/)，使用[markdown](https://markdown.com.cn/basic-syntax/)语法进行编辑。
+  本文档系统基于[docsify](https://docsify.js.org/#/zh-cn/)，使用[markdown](https://markdown.com.cn/basic-syntax/)语法进行编辑，md文件可以使用[VS Code](https://code.visualstudio.com/download "VS Code下载地址")或者记事本进行编辑。
 
 ## 获取源码
-  文档内容托管在[GitHub](https://github.com/ledvancedevsz/ledvance-docs)，因此在操作文档前应先获取文档源码。
+  文档内容托管在[GitHub](https://github.com/ledvancedevsz/ledvance-docs)，因此在操作文档前应先获取文档源码。如果还未安装[git](https://git-scm.com/downloads "git下载地址")，请先安装。
   ```bash
   git clone git@github.com:ledvancedevsz/ledvance-docs.git
   ```

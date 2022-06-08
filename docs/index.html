@@ -16,21 +16,20 @@
   </head>
   <body>
     <div id="app"></div>
+    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script>
       window.$docsify = {
         name: "LEDVANCE Docs",
-        repo: "https://github.com/ledvancedevsz/ledvance-docs",
+        repo: "ledvancedevsz/ledvance-docs",
         loadNavbar: true,
         loadSidebar: true,
         subMaxLevel: 2,
-        search: {
-          // （毫秒）过期时间一天
-          maxAge: 86400000,
-          paths: "auto",
-          placeholder: "尝试搜索一下吧",
-          noData: "未找到相关内容",
-          depth: "6",
-        },
+        search: 'auto', 
+        plugins: [
+          EditOnGithubPlugin.create(
+            "https://github.com/ledvancedevsz/ledvance-docs/blob/main/docs/"
+          ),
+        ],
       };
     </script>
     <!-- Docsify v4 -->
