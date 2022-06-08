@@ -1,1 +1,1 @@
-* [IoT Platform](/backend/iot-platform/)
+* [IoT Platform](/backend/iot-platform.md)
