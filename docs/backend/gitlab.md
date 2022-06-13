@@ -61,7 +61,7 @@ sudo EXTERNAL_URL="http://gitlab.ledvance.com" apt-get install gitlab-ee
 
 5. 更改用户注册选项
    
-  使用root账户登录，按下图步骤操作
+  使用root账户登录，默认密码在 */etc/gitlab/initial_root_password* 文件内，按下图步骤操作
   ![更改用户注册选项](./images/%E6%9B%B4%E6%94%B9GitLab%E6%B3%A8%E5%86%8C%E9%80%89%E9%A1%B9.png "xxx")
 
 6. 配置使用SMTP发送邮件
