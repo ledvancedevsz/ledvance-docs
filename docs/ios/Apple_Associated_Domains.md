@@ -22,4 +22,5 @@
 
 ### 参考文档：
 [苹果文档](https://developer.apple.com/documentation/xcode/supporting-associated-domains)、
-[实践例子](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8)
+[实践例子](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8)、
+[实践例子2](https://www.jianshu.com/p/139760979b4d)
