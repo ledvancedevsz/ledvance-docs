@@ -8,17 +8,16 @@
 
 - 需要触发长链接的API：`/v3/family/sync/batchAdd` `/v3/family/add`
 
-- 期望长链接推送数据格式
+- 长链接推送数据格式
 
 ```json
 {
-  "id": "1658318781516718888",
+  "pushType": 3,
+  "badge": 0,
+  "id": "1654289784546631680",
   "alert": "",
-  "pushTime": 1682301633612,
-  "type": "familyAdd",
-  "ext": {
-    "familyId": 1234
-  }
+  "ext": "{\"familyId\":11838,\"masterId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"senderId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"activeType\":\"add\",\"familyName\":\"Home\",\"x-type\":\"familyEvent\",\"eventType\":\"family\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\"}",
+  "pushTime": 1683248394513
 }
 ```
 
@@ -26,17 +25,16 @@
 
 - 需要触发长链接的API：`/v3/family/{familyId}/delete`
 
-- 期望长链接推送数据格式
+- 长链接推送数据格式
 
 ```json
 {
-  "id": "1658318781516718888",
+  "pushType": 3,
+  "badge": 0,
+  "id": "1654292025970106368",
   "alert": "",
-  "pushTime": 1682301633612,
-  "type": "familyDel",
-  "ext": {
-    "familyId": 1234
-  }
+  "ext": "{\"familyId\":11838,\"masterId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"senderId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"activeType\":\"delete\",\"familyName\":\"Home\",\"x-type\":\"familyEvent\",\"eventType\":\"family\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\"}",
+  "pushTime": 1683248928908
 }
 ```
 
@@ -46,18 +44,16 @@
 
 - 需要触发长链接的API：`/v3/family/sync/batchAdd` `/v3/devices/resources/group`
 
-- 期望长链接推送数据格式
+- 长链接推送数据格式
 
 ```json
 {
-  "id": "1658318781516718888",
+  "pushType": 3,
+  "badge": 0,
+  "id": "1656105301115740160",
   "alert": "",
-  "pushTime": 1682301633612,
-  "type": "roomAdd",
-  "ext": {
-    "familyId": 1234,
-    "roomId": 1234
-  }
+  "ext": "{\"familyId\":11384,\"x-type\":\"roomAdd\",\"roomId\":55524}",
+  "pushTime": 1683681247397
 }
 ```
 
@@ -65,18 +61,16 @@
 
 - 需要触发长链接的API：`/v3/devices/resources/group/{groupId}`
 
-- 期望长链接推送数据格式
+- 长链接推送数据格式
 
 ```json
 {
-  "id": "1658318781516718888",
+  "pushType": 3,
+  "badge": 0,
+  "id": "1654290678772244480",
   "alert": "",
-  "pushTime": 1682301633612,
-  "type": "roomDel",
-  "ext": {
-    "familyId": 1234,
-    "roomId": 1234
-  }
+  "ext": "{\"familyId\":11838,\"x-type\":\"roomDel\",\"roomId\":54470}",
+  "pushTime": 1683248607711
 }
 ```
 
@@ -84,18 +78,16 @@
 
 - 需要触发长链接的API：`/v3/devices/resources/group/{groupId}?ignoreMembers=true`
 
-- 期望长链接推送数据格式
+- 长链接推送数据格式
 
 ```json
 {
-  "id": "1658318781516718888",
+  "pushType": 3,
+  "badge": 0,
+  "id": "1654290471417356288",
   "alert": "",
-  "pushTime": 1682301633612,
-  "type": "roomStateChanged",
-  "ext": {
-    "familyId": 1234,
-    "roomId": 1234
-  }
+  "ext": "{\"familyId\":11838,\"x-type\":\"roomStateChanged\",\"roomId\":54470}",
+  "pushTime": 1683248558274
 }
 ```
 
@@ -105,18 +97,16 @@
 
 - 需要触发长链接的API：`/v3/devices/sync/batchAdd` `/v3/devices/sync/add`
 
-- 期望长链接推送数据格式
+- 长链接推送数据格式
 
 ```json
 {
-  "id": "1658318781516718888",
+  "pushType": 3,
+  "badge": 0,
+  "id": "1654291527078617088",
   "alert": "",
-  "pushTime": 1682301633612,
-  "type": "deviceAdd",
-  "ext": {
-    "familyId": 1234,
-    "deviceId": "TY_LDV_w2oq3xw6qdrfpzrc:bf3309e966ff0bec0fzl8y"
-  }
+  "ext": "{\"deviceSerial\":\"LDV_MESH_TEMPERATURE_DEVICE:5B8F6615FA68EE31829F23538ABF97C9\",\"groupId\":54466,\"key\":\"addDevice\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"version\":\"v3\",\"x-type\":\"userDevEvent\"}",
+  "pushTime": 1683248809963
 }
 ```
 
@@ -124,17 +114,15 @@
 
 - 需要触发长链接的API：`v3/devices/sync/{deviceId}`
 
-- 期望长链接推送数据格式
+- 长链接推送数据格式
 
 ```json
 {
-  "id": "1658318781516718888",
+  "pushType": 3,
+  "badge": 0,
+  "id": "1654290924306800640",
   "alert": "",
-  "pushTime": 1682301633612,
-  "type": "deviceDel",
-  "ext": {
-    "familyId": 1234,
-    "deviceId": "TY_LDV_w2oq3xw6qdrfpzrc:bf3309e966ff0bec0fzl8y"
-  }
+  "ext": "{\"deviceSerial\":\"LDV_MESH_TEMPERATURE_DEVICE:5B8F6615FA68EE31829F23538ABF97C9\",\"groupId\":52550,\"key\":\"delDevice\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"version\":\"v3\",\"x-type\":\"userDevEvent\"}",
+  "pushTime": 1683248666251
 }
 ```
