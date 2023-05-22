@@ -1,4 +1,4 @@
-# 萤石长链接API `1.0.1`
+# 萤石长链接API `1.1.0`
 
 ---
 
@@ -16,7 +16,16 @@
   "badge": 0,
   "id": "1654289784546631680",
   "alert": "",
-  "ext": "{\"familyId\":11838,\"masterId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"senderId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"activeType\":\"add\",\"familyName\":\"Home\",\"x-type\":\"familyEvent\",\"eventType\":\"family\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\"}",
+  "ext": {
+    "familyId": 11838,
+    "masterId": "75caa57b8ecd4db88e7f30486b7acc93",
+    "senderId": "75caa57b8ecd4db88e7f30486b7acc93",
+    "activeType": "add",
+    "familyName": "Home",
+    "x-type": "familyEvent",
+    "eventType": "family",
+    "userId": "75caa57b8ecd4db88e7f30486b7acc93"
+  },
   "pushTime": 1683248394513
 }
 ```
@@ -31,10 +40,19 @@
 {
   "pushType": 3,
   "badge": 0,
-  "id": "1654292025970106368",
+  "id": "1654289784546631680",
   "alert": "",
-  "ext": "{\"familyId\":11838,\"masterId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"senderId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"activeType\":\"delete\",\"familyName\":\"Home\",\"x-type\":\"familyEvent\",\"eventType\":\"family\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\"}",
-  "pushTime": 1683248928908
+  "ext": {
+    "familyId": 11838,
+    "masterId": "75caa57b8ecd4db88e7f30486b7acc93",
+    "senderId": "75caa57b8ecd4db88e7f30486b7acc93",
+    "activeType": "delete",
+    "familyName": "Home",
+    "x-type": "familyEvent",
+    "eventType": "family",
+    "userId": "75caa57b8ecd4db88e7f30486b7acc93"
+  },
+  "pushTime": 1683248394513
 }
 ```
 
@@ -50,10 +68,15 @@
 {
   "pushType": 3,
   "badge": 0,
-  "id": "1656105301115740160",
+  "id": "1654289784546631680",
   "alert": "",
-  "ext": "{\"familyId\":11384,\"x-type\":\"roomAdd\",\"roomId\":55524}",
-  "pushTime": 1683681247397
+  "ext": {
+    "familyId": 11838,
+    "roomId": 3423,
+    "activeType": "add",
+    "x-type": "roomEvent"
+  },
+  "pushTime": 1683248394513
 }
 ```
 
@@ -67,10 +90,15 @@
 {
   "pushType": 3,
   "badge": 0,
-  "id": "1654290678772244480",
+  "id": "1654289784546631680",
   "alert": "",
-  "ext": "{\"familyId\":11838,\"x-type\":\"roomDel\",\"roomId\":54470}",
-  "pushTime": 1683248607711
+  "ext": {
+    "familyId": 11838,
+    "roomId": 3423,
+    "activeType": "delete",
+    "x-type": "roomEvent"
+  },
+  "pushTime": 1683248394513
 }
 ```
 
@@ -84,10 +112,15 @@
 {
   "pushType": 3,
   "badge": 0,
-  "id": "1654290471417356288",
+  "id": "1654289784546631680",
   "alert": "",
-  "ext": "{\"familyId\":11838,\"x-type\":\"roomStateChanged\",\"roomId\":54470}",
-  "pushTime": 1683248558274
+  "ext": {
+    "familyId": 11838,
+    "roomId": 3423,
+    "activeType": "stateChanged",
+    "x-type": "roomEvent"
+  },
+  "pushTime": 1683248394513
 }
 ```
 
@@ -105,7 +138,15 @@
   "badge": 0,
   "id": "1654291527078617088",
   "alert": "",
-  "ext": "{\"deviceSerial\":\"LDV_MESH_TEMPERATURE_DEVICE:5B8F6615FA68EE31829F23538ABF97C9\",\"groupId\":54466,\"key\":\"addDevice\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"version\":\"v3\",\"x-type\":\"userDevEvent\"}",
+  "ext": {
+    "deviceSerial": "LDV_MESH_TEMPERATURE_DEVICE:5B8F6615FA68EE31829F23538ABF97C9",
+    "familyId": 2345,
+    "roomId": 54466,
+    "activeType": "addDevice",
+    "userId": "75caa57b8ecd4db88e7f30486b7acc93",
+    "version": "v3",
+    "x-type": "userDevEvent"
+  },
   "pushTime": 1683248809963
 }
 ```
@@ -120,9 +161,17 @@
 {
   "pushType": 3,
   "badge": 0,
-  "id": "1654290924306800640",
+  "id": "1654291527078617088",
   "alert": "",
-  "ext": "{\"deviceSerial\":\"LDV_MESH_TEMPERATURE_DEVICE:5B8F6615FA68EE31829F23538ABF97C9\",\"groupId\":52550,\"key\":\"delDevice\",\"userId\":\"75caa57b8ecd4db88e7f30486b7acc93\",\"version\":\"v3\",\"x-type\":\"userDevEvent\"}",
-  "pushTime": 1683248666251
+  "ext": {
+    "deviceSerial": "LDV_MESH_TEMPERATURE_DEVICE:5B8F6615FA68EE31829F23538ABF97C9",
+    "familyId": 2345,
+    "roomId": 54466,
+    "activeType": "delDevice",
+    "userId": "75caa57b8ecd4db88e7f30486b7acc93",
+    "version": "v3",
+    "x-type": "userDevEvent"
+  },
+  "pushTime": 1683248809963
 }
 ```
