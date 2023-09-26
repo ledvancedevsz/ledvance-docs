@@ -9,13 +9,14 @@ npm config set registry https://registry.npmjs.org
 ```shell
 npm login
 # username: ledvance
-# password: ledvance@2021
+# password: ********
 # email: app.developer@ledvance.com
 ```
 
 ### 3、修改版本
 ```shell
-npm oldVersion newVersion
+# 用法：npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]
+npm version newVersion
 ```
 
 ### 4、发布
