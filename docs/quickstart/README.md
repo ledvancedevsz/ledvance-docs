@@ -23,7 +23,7 @@
 ### 新增文档
   要新增一份flutter教学文档，可以在*docs/flutter*目录下新建一个文件，取名**flutter-study.md**，并在*docs/flutter/_sidebar.md*文件中添加对应的目录描述。
   ```markdown
-  * [Flutter学习](flutter/flutter-study.md)
+  * [Flutter学习](/flutter/flutter-study.md)
   ```
 
 ### 新增内容
