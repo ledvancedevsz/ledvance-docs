@@ -16,7 +16,7 @@
   
   并在*docs/_sidebar.md*文件中添加对应的目录描述。
   ```markdown
-  * [Flutter](flutter/)
+  * [Flutter](/flutter/)
   ```
   >由于启用了嵌套目录，所以点击每个分类名都会跳转到对应的目录。
 
